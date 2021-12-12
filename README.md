@@ -3,3 +3,8 @@ To Do web Application developed using NodeJs, MongoDB, React and ExpressJs. Uses
 
 Go to App -[https://to-do-webapplication-mern.herokuapp.com/](https://to-do-webapplication-mern.herokuapp.com/)
 
+Frontend - ReactJS
+Backend - ExpressJS
+
+By this application users will be able to organize their tasks in efficient manner.
+
