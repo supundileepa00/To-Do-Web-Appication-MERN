@@ -25,6 +25,7 @@ function TodoForm() {
             setTodoName(editTodoData.name ? editTodoData.name : '')
             setTodoComment(editTodoData.comment ? editTodoData.comment : '')
             
+            
         }
 
     }, [editTodoData])
@@ -37,15 +38,14 @@ function TodoForm() {
 
     const editTodos = (todosData) =>{
         setEditTodoData(todosData);
-        
-
+    
     }
 
 
     //add
     async function addToDos(e) {
         //stop the refreshing by submit button
-        e.preventDefault();
+        //e.preventDefault();
 
 
         const todoData = {
@@ -71,6 +71,7 @@ function TodoForm() {
         getTodos();
         
         setEditTodoData('');
+
     }
 
 
