@@ -5,6 +5,7 @@ Go to App -[https://to-do-webapplication-mern.herokuapp.com/](https://to-do-weba
 
 Frontend - ReactJS
 Backend - ExpressJS
+Database - MongoDB
 
-By this application users will be able to organize their tasks in efficient manner.
+
 
